@@ -1,12 +1,12 @@
-# Srikar Mandava | Data Engineer Command Center
+# Srikar Mandava | Personal Portfolio
 
-An ultra-premium, highly interactive personal portfolio website designed as a **Data Engineering Command Center**. Built to showcase high-throughput ETL pipelines, database schemas, and technical diagnostics.
+An interactive personal portfolio website designed as a **Data Engineering Command Center**. Built to showcase high-throughput ETL pipelines, database schemas, and technical diagnostics.
 
 ---
 
 ## ⚡ Core Features
 
-* 🧬 **Interactive Shell CLI (Terminal Quest)**: A fully functional command-line prompt supporting commands like `about`, `skills`, `projects`, and system optimization.
+* 🧬 **Interactive Shell CLI**: A fully functional command-line prompt supporting commands like `about`, `skills`, `projects`, and system optimization.
 * 🕹️ **Pipeline Overlord**: A visual vertical arcade game designed to secure data warehouses from corrupted incoming drift packets using rate limiters and deduplicators.
 * 📊 **Airflow-Style DAG Timeline**: An interactive experience timeline rendering core data lifecycles as a Directed Acyclic Graph (DAG).
 * 📡 **Live Data Lab**: Real-time pipeline monitoring simulation allowing visitors to toggle between Batch and Stream modes to observe live latency, throughput, and compute costs.
@@ -16,10 +16,10 @@ An ultra-premium, highly interactive personal portfolio website designed as a **
 
 ## 🛠️ Built With
 
-* **Core Framework**: React + Vite (Fast HMR)
-* **Styling System**: Vanilla CSS Variables (Zero bulky utilities)
-* **Animations**: GSAP (Buttery-smooth viewport scroll reveals)
-* **Canvas Engines**: High-performance HTML5 Canvas (Linear network streams & mouse-repelling mesh)
+* **Core Framework**: React + Vite
+* **Styling System**: Vanilla CSS Variables 
+* **Animations**: GSAP
+* **Canvas Engines**: High-performance HTML5 Canvas
 
 ---
 
