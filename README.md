@@ -1,16 +1,43 @@
-# React + Vite
+# Srikar Mandava | Data Engineer Command Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An ultra-premium, highly interactive personal portfolio website designed as a **Data Engineering Command Center**. Built to showcase high-throughput ETL pipelines, database schemas, and technical diagnostics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ Core Features
 
-## React Compiler
+* 🧬 **Interactive Shell CLI (Terminal Quest)**: A fully functional command-line prompt supporting commands like `about`, `skills`, `projects`, and system optimization.
+* 🕹️ **Pipeline Overlord**: A visual vertical arcade game designed to secure data warehouses from corrupted incoming drift packets using rate limiters and deduplicators.
+* 📊 **Airflow-Style DAG Timeline**: An interactive experience timeline rendering core data lifecycles as a Directed Acyclic Graph (DAG).
+* 📡 **Live Data Lab**: Real-time pipeline monitoring simulation allowing visitors to toggle between Batch and Stream modes to observe live latency, throughput, and compute costs.
+* 🖥️ **Stark Minimalist UI**: High-contrast dark blueprint theme powered by custom cursor status tags, floating network lineage canvases, and a B&W hexagonal catalog chassis.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Core Framework**: React + Vite (Fast HMR)
+* **Styling System**: Vanilla CSS Variables (Zero bulky utilities)
+* **Animations**: GSAP (Buttery-smooth viewport scroll reveals)
+* **Canvas Engines**: High-performance HTML5 Canvas (Linear network streams & mouse-repelling mesh)
+
+---
+
+## 🚀 Quick Start
+
+### 1. Install Dependencies
+```bash
+npm install
+```
+
+### 2. Launch Local Development Server
+```bash
+npm run dev
+```
+Navigate to `http://localhost:5173/` in your browser.
+
+### 📦 Production Build
+```bash
+npm run build
+```
+The compiled, production-ready static assets will be packaged into the `dist/` directory.
