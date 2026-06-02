@@ -1,0 +1,48 @@
+# Logs and debug files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Compiled build outputs
+dist/
+dist-ssr/
+build/
+out/
+.svelte-kit/
+.next/
+.nuxt/
+
+# Local environment and secret files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Editor configurations and IDE metadata
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary caches
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini

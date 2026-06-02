@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Sleek chiseled hexagon chassis (stark black fill with a bold white border) -->
+  <polygon points="256,36 446,146 446,366 256,476 66,366 66,146" fill="#000000" stroke="#ffffff" stroke-width="12" stroke-linejoin="round" />
+  
+  <!-- Subtle inner hairline hexagon ring for a technical blueprint feel -->
+  <polygon points="256,50 432,152 432,360 256,462 80,360 80,152" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" opacity="0.3" />
+
+  <!-- 3D Chiseled Typographic Monogram 'SM' using clean system fonts -->
+  <!-- Shadow Layer (Silver-Gray Shifted) -->
+  <text x="260" y="274" 
+        font-family="'JetBrains Mono', 'Outfit', 'Courier New', monospace" 
+        font-size="160" 
+        font-weight="800" 
+        fill="#535364" 
+        text-anchor="middle" 
+        dominant-baseline="middle"
+        letter-spacing="-0.02em">SM</text>
+
+  <!-- Front Layer (Pure Stark White) -->
+  <text x="254" y="268" 
+        font-family="'JetBrains Mono', 'Outfit', 'Courier New', monospace" 
+        font-size="160" 
+        font-weight="800" 
+        fill="#ffffff" 
+        text-anchor="middle" 
+        dominant-baseline="middle"
+        letter-spacing="-0.02em">SM</text>
+
+  <!-- Cybernetic sub-command line tag at the bottom -->
+  <text x="256" y="380"
+        font-family="'JetBrains Mono', monospace"
+        font-size="28"
+        font-weight="bold"
+        fill="#ffffff"
+        text-anchor="middle"
+        letter-spacing="0.1em">// DE</text>
+
+  <!-- Technical crosshair lines at the edges -->
+  <line x1="256" y1="20" x2="256" y2="30" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  <line x1="256" y1="482" x2="256" y2="492" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+</svg>
