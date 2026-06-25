@@ -93,9 +93,9 @@ export default function Skills() {
   ];
 
   const certifications = [
+    { name: "Databricks Certified Data Engineer Associate", issuer: "Databricks" },
     { name: "Postman API Fundamentals Student Expert", issuer: "Postman API Team" },
-    { name: "OCI Foundations Associate Certified", issuer: "Oracle Cloud" },
-    { name: "AWS Educate Member", issuer: "Amazon Web Services" }
+    { name: "OCI Foundations Associate Certified", issuer: "Oracle Cloud" }
   ];
 
   return (
