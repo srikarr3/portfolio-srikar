@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { 
-  Award, Terminal, Code, Cpu, Cloud, Database, 
-  Network, Layers, Workflow, Zap, Compass, GitBranch, BarChart3, Tv 
+import {
+  Award, Terminal, Code, Cpu, Cloud, Database,
+  Network, Layers, Workflow, Zap, Compass, GitBranch, BarChart3, Tv
 } from 'lucide-react';
 
 export default function Skills() {
@@ -24,17 +24,17 @@ export default function Skills() {
       BarChart3: BarChart3,
       Tv: Tv
     };
-    
+
     const IconComponent = iconsMap[iconName] || Code;
     return (
-      <IconComponent 
-        size={18} 
+      <IconComponent
+        size={18}
         style={{
           color: isHovered ? color : 'var(--text-secondary)',
           transform: isHovered ? 'scale(1.2) rotate(8deg)' : 'scale(1) rotate(0)',
           transition: 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.3s',
           filter: isHovered ? `drop-shadow(0 0 6px ${color})` : 'none'
-        }} 
+        }}
       />
     );
   };
@@ -93,15 +93,15 @@ export default function Skills() {
   ];
 
   const certifications = [
+    { name: "Microsoft Certified: Fabric Data Engineer Associate", issuer: "Microsoft" },
     { name: "Databricks Certified Data Engineer Associate", issuer: "Databricks" },
-    { name: "Postman API Fundamentals Student Expert", issuer: "Postman API Team" },
-    { name: "OCI Foundations Associate Certified", issuer: "Oracle Cloud" }
+    { name: "Postman API Fundamentals Student Expert", issuer: "Postman API Team" }
   ];
 
   return (
-    <section 
-      id="skills" 
-      className="section-padding" 
+    <section
+      id="skills"
+      className="section-padding"
       style={{
         position: 'relative',
         zIndex: 2,
@@ -110,7 +110,7 @@ export default function Skills() {
       }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        
+
         {/* Section Header */}
         <div style={{ marginBottom: '60px' }}>
           <div className="font-mono-tech text-green" style={{ marginBottom: '8px' }}>
@@ -137,7 +137,7 @@ export default function Skills() {
           {skillCategories.map((cat) => {
             const isSelected = activeCategory === cat.id;
             return (
-              <div 
+              <div
                 key={cat.id}
                 onClick={() => setActiveCategory(activeCategory === cat.id ? null : cat.id)}
                 className="command-card interactive"
@@ -189,7 +189,7 @@ export default function Skills() {
           padding: '40px',
           marginBottom: '60px'
         }}>
-          
+
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
@@ -202,7 +202,7 @@ export default function Skills() {
                   {cat.skills.map((skill, sIdx) => {
                     const isHovered = hoveredSkill === skill.name;
                     return (
-                      <div 
+                      <div
                         key={sIdx}
                         onMouseEnter={() => setHoveredSkill(skill.name)}
                         onMouseLeave={() => setHoveredSkill(null)}
@@ -267,9 +267,9 @@ export default function Skills() {
 
         {/* Certifications Sub-Section (Compact Cards) */}
         <div>
-          <div 
-            className="font-mono-tech text-cyan" 
-            style={{ 
+          <div
+            className="font-mono-tech text-cyan"
+            style={{
               marginBottom: '20px',
               display: 'flex',
               alignItems: 'center',
@@ -286,7 +286,7 @@ export default function Skills() {
             gap: '16px'
           }}>
             {certifications.map((cert, cIdx) => (
-              <div 
+              <div
                 key={cIdx}
                 style={{
                   display: 'flex',
